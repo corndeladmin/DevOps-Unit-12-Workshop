@@ -1,0 +1,15 @@
+# This is scanned in the tutor's repo to check that the necessary dependencies are still present
+# If changing, please ensure to also update that repository
+image: gitpod/workspace-dotnet:latest
+vscode:
+  extensions:
+    - "muhammad-sammy.csharp"
+# List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/43_config_ports/
+ports:
+  - port: 5000
+    onOpen: ignore
+
+# List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/44_config_start_tasks/
+tasks:
+  - command: cd WeatherForecast/ && dotnet run
+  - command: gp await-port 5000 && gp preview $(gp url 5000)/swagger/index.html

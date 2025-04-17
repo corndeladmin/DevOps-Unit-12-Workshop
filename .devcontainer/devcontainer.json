@@ -1,0 +1,21 @@
+{
+    "name": "Existing Docker Compose (Extend)",
+
+    "customizations": {
+        "vscode":{
+            "extensions": [
+                "mhutchie.git-graph",
+                "goz3rr.vscode-glualint",
+                "ms-dotnettools.csharp"
+            ],
+        }
+    },
+    
+    "dockerComposeFile": [
+        "../docker-compose.yml",
+        "docker-compose-extend.yml"
+    ],
+    "service": "weatherapp",
+    "workspaceFolder": "/workshop",
+    "shutdownAction": "stopCompose"
+}

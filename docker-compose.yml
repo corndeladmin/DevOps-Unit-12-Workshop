@@ -1,0 +1,7 @@
+services:
+  weatherapp:
+    build:
+      context: .
+      dockerfile: ./WeatherForecast/Dockerfile
+    ports:
+      - "5000:5000"
