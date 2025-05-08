@@ -20,4 +20,7 @@ Members of the public who believe in Alpha's mission and want to help. **Support
 
 ## Key Systems
 
-Alpha has lots of different systems, but they've prepared an outline of the most important ones for you to consider. They are Eleos, Athena, Apollo and Cassandra. [You can find details about them in separate files here](./).
+Alpha has lots of different systems, but they've prepared an outline of the most important ones for you to consider. They are:
+* [Eleos](./eleos.md)
+* [Athena](./athena.md) 
+* [Apollo and Cassandra](./apollo.md)
