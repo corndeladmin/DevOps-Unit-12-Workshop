@@ -11,12 +11,8 @@ That means it shouldn't be possible to access the api without a valid authentica
 
 This repository contains code for a simple .NET Core web API.
 It exposes one GET endpoint, WeatherForecast, which will return a randomly generated weather forecast for the next five days.
-As you'll be building on this code, it's recommended that you [fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) the repository like you did for workshops 7 and 8.
 
 You don't need to worry too much about what the code is doing for now. However, you should be able to build and run the app.
-
-> To launch this project within Docker, either select "Reopen in Container" to the prompt that appears or type `Ctrl + Shift + P => DevContainers: Reopen in Container`:
-![DevContainer Prompt](./Images/OpenInDocker.PNG)
 
 To run the application, run `dotnet build` and then `dotnet run` from a terminal in the `WeatherForecast` folder.
 
