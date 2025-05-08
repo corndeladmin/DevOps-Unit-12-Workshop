@@ -15,14 +15,13 @@ As you'll be building on this code, it's recommended that you [fork](https://doc
 
 You don't need to worry too much about what the code is doing for now. However, you should be able to build and run the app.
 
-> If you are running the app in GitPod, you should find these steps are automatically run for you, and the relevant page has already opened. If not, follow the instructions below to run the app and visit the relevant page on the 5000 port with `/swagger/index.html` after the hostname.
-
 > To launch this project within Docker, either select "Reopen in Container" to the prompt that appears or type `Ctrl + Shift + P => DevContainers: Reopen in Container`:
 ![DevContainer Prompt](./Images/OpenInDocker.PNG)
 
 To run the application, run `dotnet build` and then `dotnet run` from a terminal in the `WeatherForecast` folder.
 
 You should now be able to visit <http://localhost:5000/swagger/index.html> in a browser. This loads a [Swagger UI](https://swagger.io/tools/swagger-ui/) page.
+> If you are using GitHub Codespaces you will need to add `swagger/index.html` to the browser URL when forwarding port 5000
 
 Swagger UI is a useful tool to test API endpoints. To test this API click the "/WeatherForecast" row then "Try it out" then "Execute". You should then be able to see the response from the endpoint.
 
